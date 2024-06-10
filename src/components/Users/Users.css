@@ -1,0 +1,40 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    flex: 1 1;
+    max-width: 550px;
+    width: 100%;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    list-style: none;
+}
+
+.text {
+    text-align: center;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    gap: 8px;
+}
+
+.settings_icon {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.user:hover > .settings_icon {
+    opacity: 1;
+}
+.user:active > .settings_icon {
+    opacity: 1;
+}
